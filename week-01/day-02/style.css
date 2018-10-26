@@ -1,0 +1,31 @@
+
+
+.nav{
+    background-color: #333333;      
+}
+
+a{
+    margin-top: 30;
+    border: 0;
+    padding: 0 40px;
+    float: right;
+    color:#ff0099; 
+}
+
+h1, h2 {
+    margin:40;
+    padding: 40px 10%;
+    width: 1000px;
+    margin: auto;
+}
+
+p {
+    padding-right: 10%;
+    padding-left: 10;
+    width: 1000px;
+    margin: auto;
+}
+
+.headline h2{
+    color: #ff0099;
+}
