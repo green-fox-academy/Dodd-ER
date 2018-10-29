@@ -5,6 +5,6 @@ public class Bmi {
 
         // Print the Body mass index (BMI) based on these values
 
-        System.out.println( massInKg / heightInM);
+        System.out.println( massInKg / (heightInM * heightInM));
     }
 }
