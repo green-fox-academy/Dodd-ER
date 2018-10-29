@@ -27,22 +27,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4964" />
+          <entry key="java" value="5363" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4964" />
+          <entry key="JAVA" value="5363" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -125,20 +125,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PartyIndicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+            <state relative-caret-position="688">
+              <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloOthers.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ConditionalVariableMutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="386">
+              <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -180,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/OneTwoALot.java" />
         <option value="$PROJECT_DIR$/src/PrintBigger.java" />
         <option value="$PROJECT_DIR$/src/PartyIndicator.java" />
+        <option value="$PROJECT_DIR$/src/ConditionalVariableMutation.java" />
       </list>
     </option>
   </component>
@@ -229,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540829851990" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540831327947" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,9 +244,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartyIndicator">
-    <configuration name="AverageOfInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AverageOfInput" />
+  <component name="RunManager" selected="Application.ConditionalVariableMutation">
+    <configuration name="ConditionalVariableMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConditionalVariableMutation" />
       <module name="day-01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,19 +281,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AverageOfInput" />
       <item itemvalue="Application.OddEven" />
       <item itemvalue="Application.OneTwoALot" />
       <item itemvalue="Application.PrintBigger" />
       <item itemvalue="Application.PartyIndicator" />
+      <item itemvalue="Application.ConditionalVariableMutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConditionalVariableMutation" />
         <item itemvalue="Application.PartyIndicator" />
         <item itemvalue="Application.PrintBigger" />
         <item itemvalue="Application.OneTwoALot" />
         <item itemvalue="Application.OddEven" />
-        <item itemvalue="Application.AverageOfInput" />
       </list>
     </recent_temporary>
   </component>
@@ -306,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540810641705</updated>
-      <workItem from="1540810655391" duration="16700000" />
+      <workItem from="1540810655391" duration="18267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16700000" />
+    <option name="totallyTimeSpent" value="18267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -508,8 +509,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PartyIndicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        <state relative-caret-position="688">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConditionalVariableMutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
         </state>
       </provider>
     </entry>
