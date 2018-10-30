@@ -10,9 +10,14 @@ public class Reverse {
         //   for (int i = 4; i >= 0; i--){
         //        System.out.print("|" + aj[i] + "|");
 
-        for (int i = 0; i < aj.length; i++){
-            
+        for (int i = 1; i < ((aj.length / 2) + 1); i++) {
+            int joker = aj[i - 1];
+            aj[i - 1] = aj[aj.length - i];
+            aj[aj.length - i] = joker;
+
+        }
+        for (int elements : aj) {
+            System.out.print(elements);
         }
     }
 }
-
