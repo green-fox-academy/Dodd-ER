@@ -5,6 +5,7 @@ public class Anagram {
 
     public static boolean anagram(char[] firstArray, char[] secondArray) {
         boolean answer = true;
+
         if (firstArray.length != secondArray.length) {
             answer = false;
         } else {
@@ -32,6 +33,7 @@ public class Anagram {
 
         System.out.println("Please write your first word: ");
         String firstWord = sc.nextLine();
+        
         System.out.println("Please write your second word: ");
         String secondWord = sc.nextLine();
 
