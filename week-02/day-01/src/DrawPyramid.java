@@ -25,7 +25,7 @@ public class DrawPyramid {
             for (int j = 0; j < num - i; j++){
                 System.out.print(" ");
             }
-            for (int k = 0; k <= i + i; k++){
+            for (int k = 0; k <= i + i ; k++){
                 System.out.print( "*");
             }
             System.out.println();
