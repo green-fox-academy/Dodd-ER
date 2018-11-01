@@ -52,7 +52,7 @@ public class Anagram {
         char[] secondArray = makeArray(secondWord);
 
         System.out.println("Your two words are anagram?:" + anagram(firstArray, secondArray));
-        
+
     }
 
 }

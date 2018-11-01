@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Unique {
 
     //    public static String unique(int[] myArray) {
@@ -17,27 +19,24 @@ public class Unique {
 //        System.out.println(unique(new int[]{1, 11, 34, 11, 52, 61, 1, 34}));
 //        //  should print: `[1, 11, 34, 52, 61]`
 //    }
-    public static int[] unique(int[] numbers){
-        int[] result = new int[numbers.length];
-        int countOfNotUniques = 0;
+    public static String unique(int[] numbers){
+        String result = "";
 
-        for (int i = 0; i <numbers.length; i++){
-            boolean isUnique = true;
-            for (int j = 0; j <numbers.length; j++){
-                if (numbers[i] == numbers[j] && i > j){
-                    isUnique = false;
+        Arrays.sort(numbers);
+        for (int i = 0; i < numbers.length; i++){
+            if (i == numbers.length - 1){
+                result += (numbers[i]);
+            } else {
+                if (numbers[i] != numbers[i + 1]){
+                    result += (numbers[i] + ", ");
                 }
             }
-            if (isUnique){
-                result[i] = numbers[i];
-                countOfNotUniques ++;
-            }
         }
-
         return result;
     }
 
     public static void main(String[] args) {
-
+        System.out.println("1, 11, 34, 11, 52, 61, 1, 34");
+        System.out.println(unique(new int[]{1, 11, 34, 11, 52, 61, 1, 34}));
     }
 }

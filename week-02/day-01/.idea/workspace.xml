@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80b143f0-6052-4c3c-9078-74b62da0acaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-02/src/Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/Unique.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
