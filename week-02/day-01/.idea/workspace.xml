@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="80b143f0-6052-4c3c-9078-74b62da0acaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-02/src/Unique.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/Unique.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -70,7 +69,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DrawDiamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
+            <state relative-caret-position="909">
               <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
@@ -131,10 +130,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="979" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -251,18 +250,17 @@
       <updated>1540810641705</updated>
       <workItem from="1540810655391" duration="24743000" />
       <workItem from="1540971386652" duration="14866000" />
-      <workItem from="1541068275917" duration="630000" />
+      <workItem from="1541068275917" duration="1223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40239000" />
+    <option name="totallyTimeSpent" value="40832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19597316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40499306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -512,7 +510,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DrawDiamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="909">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
