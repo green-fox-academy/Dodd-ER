@@ -21,5 +21,5 @@ public class SolarSystem {
             outputPlanetList += elements + ", ";
         }
         return outputPlanetList;
-    } 
+    }
 }
