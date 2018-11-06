@@ -17,7 +17,7 @@ public class MatchMaking {
         ArrayList<String> outputArrayList = new ArrayList<>();
         for (int i = 0; i < inputArrayList1.size(); i++){
             outputArrayList.add(inputArrayList1.get(i) + " - " + inputArrayList2.get(i));
-        // with bash it looks better
+        // with bash(-) it looks much better
         }
 
         return outputArrayList;
