@@ -23,7 +23,7 @@ public class QuoteSwap {
 
     public static ArrayList<String> quoteSwap(ArrayList<String> inputArrayList){
         ArrayList<String> outputArrayList = new ArrayList<>(inputArrayList);
-        
+
         outputArrayList.set(inputArrayList.indexOf("do"), "cannot");
         outputArrayList.set(inputArrayList.indexOf("cannot"), "do");
 
