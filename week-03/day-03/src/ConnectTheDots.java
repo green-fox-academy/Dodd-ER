@@ -12,13 +12,25 @@ public class ConnectTheDots {
         // Connect these to get a box: {{10, 10}, {290,  10}, {290, 290}, {10, 290}}
         // Connect these: {{50, 100}, {70, 70}, {80, 90}, {90, 90}, {100, 70},
         // {120, 100}, {85, 130}, {50, 100}}
-        int[][] arrayOFDots = new int[][] {{50, 100}, {70, 70}, {80, 90}, {90, 90}, {100, 70}, {120, 100}, {85, 130}, {50, 100}}
+        int[][] arrayOfDots = new int[][] {{50, 100}, {70, 70}, {80, 90}, {90, 90}, {100, 70}, {120, 100}, {85, 130}, {50, 100}};
+        int[][] arrayOfDots2 = new int[][] {{10, 10}, {290,  10}, {290, 290}, {10, 290}};
+        for (int i = 0; i < arrayOfDots.length; i++){
+            for (int j = 0; j < arrayOfDots[i].length; j++) {
+                System.out.print(arrayOfDots[i][j] + " ");
+            }
+            System.out.println();
+        }
 
-        ConnectTheDotsFunction(arrayOFDots, graphics);
+        ConnectTheDotsFunction(arrayOfDots2, graphics);
     }
 
     public static void ConnectTheDotsFunction(int[][] inputArray, Graphics graphics){
-        
+        for (int i = 0; i < inputArray.length; i++) {
+            for (int j = 0; j < inputArray[i].length; j++) {
+                graphics.setColor(Color.GREEN);
+                graphics.drawPolyline(inputArray[i], inputArray[j], 2);
+            }
+        }
 
     }
 
