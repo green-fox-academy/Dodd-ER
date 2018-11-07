@@ -19,22 +19,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="17" />
+          <entry key="java" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2715" />
+          <entry key="java" value="2992" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2715" />
+          <entry key="JAVA" value="2992" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -93,11 +93,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PurpleSteps3d.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
               <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Checkerboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/PurpleSteps.java" />
         <option value="$PROJECT_DIR$/src/PurpleSteps3D.java" />
         <option value="$PROJECT_DIR$/src/PurpleSteps3d.java" />
+        <option value="$PROJECT_DIR$/src/Checkerboard.java" />
       </list>
     </option>
   </component>
@@ -206,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541602994065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541605007273" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PurpleSteps3d">
+  <component name="RunManager" selected="Application.Checkerboard">
     <configuration name="CenterBoxFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CenterBoxFunction" />
       <module name="day-03" />
@@ -228,8 +241,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PositionSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PositionSquare" />
+    <configuration name="Checkerboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Checkerboard" />
       <module name="day-03" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,19 +270,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PositionSquare" />
       <item itemvalue="Application.CenterBoxFunction" />
       <item itemvalue="Application.RainbowBoxFunction" />
       <item itemvalue="Application.PurpleSteps" />
       <item itemvalue="Application.PurpleSteps3d" />
+      <item itemvalue="Application.Checkerboard" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Checkerboard" />
         <item itemvalue="Application.PurpleSteps3d" />
         <item itemvalue="Application.PurpleSteps" />
         <item itemvalue="Application.RainbowBoxFunction" />
         <item itemvalue="Application.CenterBoxFunction" />
-        <item itemvalue="Application.PositionSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -283,12 +296,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541584993580</updated>
-      <workItem from="1541584997386" duration="15748000" />
+      <workItem from="1541584997386" duration="17583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15748000" />
+    <option name="totallyTimeSpent" value="17583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -456,6 +469,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkerboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
