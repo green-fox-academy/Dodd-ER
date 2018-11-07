@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f80dba38-6c6b-4cf5-b156-17bfdd845193" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../day-03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-03/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-03/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-03/src/Matrev.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-03/src/com/greenfox/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/com/greenfox/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/week-03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/AppendLetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/CandyShop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/ElementFinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/IsInList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/LigthningTalk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/MatRev.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/MatchMaking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/QuoteSwap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/Reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/SimpleReplace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/SolarSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/TakesLonger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/ToDoPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/UrlFixer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/out/production/week-03/com/greenfox/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-02/week-03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/AppendLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/AppendLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/CandyShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/CandyShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ElementFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/ElementFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/IsInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/IsInList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/LigthningTalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/LigthningTalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/MatRev.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/MatRev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/MatchMaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/MatchMaking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/QuoteSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/QuoteSwap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/SimpleReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/SimpleReplace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/SolarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/SolarSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/TakesLonger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/TakesLonger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ToDoPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/ToDoPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/UrlFixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-02/src/UrlFixer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/com/greenfox/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f80dba38-6c6b-4cf5-b156-17bfdd845193" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,22 +19,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="147" />
+          <entry key="java" value="251" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="147" />
+          <entry key="JAVA" value="251" />
         </counts>
       </usages-collector>
     </session>
@@ -99,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LineInTheMiddle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="189">
+              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ColoredBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,6 +90,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/LineInTheMiddle.java" />
+        <option value="$PROJECT_DIR$/src/ColoredBox.java" />
       </list>
     </option>
   </component>
@@ -170,7 +134,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541585749046" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541586433236" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +148,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LineInTheMiddle">
+  <component name="RunManager" selected="Application.ColoredBox">
+    <configuration name="ColoredBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColoredBox" />
+      <module name="day-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LineInTheMiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LineInTheMiddle" />
       <module name="day-03" />
@@ -205,9 +176,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.LineInTheMiddle" />
+      <item itemvalue="Application.ColoredBox" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ColoredBox" />
         <item itemvalue="Application.LineInTheMiddle" />
       </list>
     </recent_temporary>
@@ -222,12 +195,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541584993580</updated>
-      <workItem from="1541584997386" duration="746000" />
+      <workItem from="1541584997386" duration="1281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="746000" />
+    <option name="totallyTimeSpent" value="1281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -279,8 +252,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LineInTheMiddle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="189">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ColoredBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
