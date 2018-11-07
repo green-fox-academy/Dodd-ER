@@ -19,22 +19,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2220" />
+          <entry key="java" value="2408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2220" />
+          <entry key="JAVA" value="2408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -69,11 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RainbowBoxFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="339">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PurpleSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/PositionSquare.java" />
         <option value="$PROJECT_DIR$/src/CenterBoxFunction.java" />
         <option value="$PROJECT_DIR$/src/RainbowBoxFunction.java" />
+        <option value="$PROJECT_DIR$/src/PurpleSteps.java" />
       </list>
     </option>
   </component>
@@ -179,7 +192,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541598107393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541600217942" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,16 +206,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RainbowBoxFunction">
+  <component name="RunManager" selected="Application.PurpleSteps">
     <configuration name="CenterBoxFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CenterBoxFunction" />
-      <module name="day-03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CenteredSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CenteredSquare" />
       <module name="day-03" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,6 +228,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PurpleSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PurpleSteps" />
+      <module name="day-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RainbowBoxFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RainbowBoxFunction" />
       <module name="day-03" />
@@ -230,19 +243,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CenteredSquare" />
       <item itemvalue="Application.FourRectangles" />
       <item itemvalue="Application.PositionSquare" />
       <item itemvalue="Application.CenterBoxFunction" />
       <item itemvalue="Application.RainbowBoxFunction" />
+      <item itemvalue="Application.PurpleSteps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PurpleSteps" />
         <item itemvalue="Application.RainbowBoxFunction" />
         <item itemvalue="Application.CenterBoxFunction" />
         <item itemvalue="Application.PositionSquare" />
         <item itemvalue="Application.FourRectangles" />
-        <item itemvalue="Application.CenteredSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -256,12 +269,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541584993580</updated>
-      <workItem from="1541584997386" duration="11377000" />
+      <workItem from="1541584997386" duration="12925000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11377000" />
+    <option name="totallyTimeSpent" value="12925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -407,8 +420,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RainbowBoxFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="339">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PurpleSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
