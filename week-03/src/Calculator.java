@@ -1,7 +1,6 @@
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-import java.util.ArrayList;
 import java.lang.Object;
 import java.lang.String;
 
@@ -24,35 +23,35 @@ public class Calculator {
         // Print the result to the prompt
         // Exit
         Scanner sc = new Scanner(System.in);
-        List<Object> inputMath;
+        List<String> inputMath;
 
         System.out.println("Please enter an operation and two operand!");
-        String userInput = sc.next();
+        String userInput = sc.nextLine();
         inputMath= Arrays.asList(userInput.split(" "));
         System.out.println(calculator(inputMath));
     }
 
-    public static int calculator(List<Object> inputList){
-        Integer outputNum = 0;
-        char inputChar = (char) inputList.indexOf(0);
-        int inputNum1 = inputList.indexOf(1);
-        int inputNum2 = inputList.indexOf(2);
+    public static int calculator(List<String> inputList){
+        int outputNum = 0;
+        String inputString = inputList.get(0);
+        int inputNum1 = Integer.parseInt(inputList.get(1));
+        int inputNum2 = Integer.parseInt(inputList.get(2));
 
 
-        switch (inputChar) {
-            case '+':
+        switch (inputString) {
+            case "+":
                 outputNum = inputNum1 + inputNum2;
                 break;
-            case '-':
+            case "-":
                 outputNum = inputNum1 - inputNum2;
                 break;
-            case '*':
+            case "*":
                 outputNum = inputNum1 * inputNum2;
                 break;
-            case '/':
+            case "/":
                 outputNum = inputNum1 / inputNum2;
                 break;
-            case '%':
+            case "%":
                 outputNum = inputNum1 % inputNum2;
                 break;
             default:
