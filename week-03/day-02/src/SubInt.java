@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class SubInt {
@@ -15,6 +16,7 @@ public class SubInt {
 
     public static ArrayList<Integer> subInt(int inputNum, int[] inputArray){
        ArrayList<Integer> outputArrayList = new ArrayList<>();
+
         int k = 0;
         for (int i = 0; i < inputArray.length; i++){
             if (inputArray[i] == inputNum) {
