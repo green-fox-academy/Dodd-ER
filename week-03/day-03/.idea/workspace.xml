@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f80dba38-6c6b-4cf5-b156-17bfdd845193" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-03/ConnectTheDots$ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-03/ConnectTheDots$ImagePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/day-03/ConnectTheDots.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day-03/ConnectTheDots.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConnectTheDots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConnectTheDots.java" afterDir="false" />
-    </list>
+    <list default="true" id="f80dba38-6c6b-4cf5-b156-17bfdd845193" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,22 +20,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4036" />
+          <entry key="java" value="4598" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4036" />
+          <entry key="JAVA" value="4598" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -51,11 +46,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConnectTheDots.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="236">
+              <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StarryNight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RainbowBoxFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/FunctionToCenter.java" />
         <option value="$PROJECT_DIR$/src/Checkerboard.java" />
         <option value="$PROJECT_DIR$/src/ConnectTheDots.java" />
+        <option value="$PROJECT_DIR$/src/StarryNight.java" />
       </list>
     </option>
   </component>
@@ -143,7 +163,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541617189659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541674059603" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -158,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConnectTheDots">
+  <component name="RunManager" selected="Application.StarryNight">
     <configuration name="Checkerboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Checkerboard" />
       <module name="day-03" />
@@ -180,13 +200,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PurpleSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PurpleSteps" />
-      <module name="day-03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PurpleSteps3d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PurpleSteps3d" />
       <module name="day-03" />
@@ -194,20 +207,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarryNight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StarryNight" />
+      <module name="day-03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.PurpleSteps" />
       <item itemvalue="Application.PurpleSteps3d" />
       <item itemvalue="Application.Checkerboard" />
       <item itemvalue="Application.FunctionToCenter" />
       <item itemvalue="Application.ConnectTheDots" />
+      <item itemvalue="Application.StarryNight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarryNight" />
         <item itemvalue="Application.ConnectTheDots" />
         <item itemvalue="Application.Checkerboard" />
         <item itemvalue="Application.FunctionToCenter" />
         <item itemvalue="Application.PurpleSteps3d" />
-        <item itemvalue="Application.PurpleSteps" />
       </list>
     </recent_temporary>
   </component>
@@ -222,12 +242,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541584993580</updated>
       <workItem from="1541584997386" duration="25439000" />
-      <workItem from="1541667197637" duration="3791000" />
+      <workItem from="1541667197637" duration="6711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29230000" />
+    <option name="totallyTimeSpent" value="32150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -391,16 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RainbowBoxFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="31" column="5" selection-start-line="24" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CenterBoxFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -423,8 +433,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ConnectTheDots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="236">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RainbowBoxFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StarryNight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
