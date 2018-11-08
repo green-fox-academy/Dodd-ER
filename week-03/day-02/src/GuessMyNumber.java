@@ -15,13 +15,13 @@ public class GuessMyNumber {
             int guess = sc.nextInt();
 
             if (guess != randomNum) {
-                System.out.println("Wrong number!");
+                lives--;
+                System.out.println("Wrong number! You have " + lives + "lives!");
                 if (guess < randomNum) {
                     System.out.println("Try higher");
                 } else {
                     System.out.println("Try lower");
                 }
-                lives--;
             }else {
                 System.out.println("Right! Amazing job!!");
                 break;
