@@ -13,7 +13,7 @@ public class ConnectTheDots {
         // Connect these: {{50, 100}, {70, 70}, {80, 90}, {90, 90}, {100, 70},
         // {120, 100}, {85, 130}, {50, 100}}
         int[][] arrayOfDots = new int[][] {{50, 100}, {70, 70}, {80, 90}, {90, 90}, {100, 70}, {120, 100}, {85, 130}, {50, 100}};
-        int[][] arrayOfDots2 = new int[][] {{10, 10}, {290,  10}, {290, 290}, {10, 290}};
+        int[][] arrayOfDots2 = new int[][] { {10, 10}, {290,  10}, {290, 290}, {10, 290} };
         for (int i = 0; i < arrayOfDots.length; i++){
             for (int j = 0; j < arrayOfDots[i].length; j++) {
                 System.out.print(arrayOfDots[i][j] + " ");
@@ -21,16 +21,30 @@ public class ConnectTheDots {
             System.out.println();
         }
 
-        ConnectTheDotsFunction(arrayOfDots2, graphics);
+        ConnectTheDotsFunction(arrayOfDots, graphics);
     }
 
     public static void ConnectTheDotsFunction(int[][] inputArray, Graphics graphics){
+//        10 10     graphics.drawPolyline(inputArray[0][], inputArray[j], 2);
+//        290 10    graphics.drawPolyline(inputArray[1][], inputArray[j], 2);
+//        290 290   graphics.drawPolyline(inputArray[2][], inputArray[j], 2);
+//        10 290    graphics.drawPolyline(inputArray[3][], inputArray[j], 2);
+//        graphics.drawPolygon(inputArray[0], inputArray[1], 4);
+        int[] xCoord = new int[inputArray.length];
+        int[] yCoord = new int[inputArray.length];
+
+
         for (int i = 0; i < inputArray.length; i++) {
             for (int j = 0; j < inputArray[i].length; j++) {
-                graphics.setColor(Color.GREEN);
-                graphics.drawPolyline(inputArray[i], inputArray[j], 2);
+                if (j == 0){
+                    xCoord[i] = inputArray[i][j];
+                }else {
+                    yCoord[i] = inputArray[i][j];
+                }
             }
         }
+        graphics.setColor(Color.GREEN);
+        graphics.drawPolygon(xCoord, yCoord, inputArray.length);
 
     }
 
