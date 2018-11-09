@@ -2,14 +2,16 @@ import javax.swing.*;
 import java.awt.*;
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class LinePlay {
+public class EnvelopeStar {
     public static void mainDraw(Graphics graphics) {
 
-        for (int i = 20; i <= 320; i += 20) {
-            graphics.setColor(Color.green);
-            graphics.drawLine(WIDTH - WIDTH, i, i, HEIGHT);
-            graphics.setColor(new Color(219, 177, 249));
-            graphics.drawLine(i, HEIGHT - HEIGHT, WIDTH, i);
+        for (int i = 0; i <= (320 / 2); i += 10) {
+            graphics.setColor(new Color(91, 216, 99));
+            graphics.drawLine(WIDTH / 2, i, (WIDTH / 2) - i, HEIGHT / 2);
+            graphics.drawLine(WIDTH / 2, i, (WIDTH / 2) + i, HEIGHT / 2);
+            graphics.drawLine(i, (HEIGHT / 2), (WIDTH / 2), (HEIGHT / 2) + i);
+            graphics.drawLine((WIDTH / 2) + i, (HEIGHT / 2), (WIDTH / 2), HEIGHT - i);
+
         }
     }
 
@@ -36,4 +38,5 @@ public class LinePlay {
             mainDraw(graphics);
         }
     }
+
 }
