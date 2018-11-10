@@ -8,11 +8,11 @@ public class Triangles {
     public static void mainDraw(Graphics graphics) {
 
         for (int i = 0; i <= 320; i += 10) {
-//            graphics.setColor(Color.RED);
+            graphics.setColor(Color.RED);
             graphics.drawLine((WIDTH / 2) - (int)((i / 1.73) / 1.15), (int)(i * 1.73) / 2,WIDTH - i,  (int)(HEIGHT * 1.73) / 2);
-//            graphics.setColor(Color.GREEN);
+            graphics.setColor(Color.GREEN);
             graphics.drawLine((WIDTH / 2) + (int)((i / 1.73) / 1.15),(int)(i * 1.73) / 2, i, (int)(HEIGHT * 1.73) / 2);
-//            graphics.setColor(Color.BLUE);
+            graphics.setColor(Color.BLUE);
             graphics.drawLine((WIDTH / 2) - (int)((i / 1.73) / 1.15), (int)(i * 1.73) / 2, (WIDTH / 2) + (int)((i / 1.73) / 1.15),(int)(i * 1.73) / 2);
 
         }

@@ -11,7 +11,7 @@ public class RainbowBoxFunction {
         int width = WIDTH;
         for (int i = width; i > 0; i--){
             width--;
-            DrawingRainbowBoxFunction(width, new Color((int) (Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256)), graphics);
+            DrawingRainbowBoxFunction(width, GetRandomColor(), graphics);
         }
     }
 
