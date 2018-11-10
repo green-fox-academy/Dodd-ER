@@ -8,12 +8,12 @@ public class Triangles {
     public static void mainDraw(Graphics graphics) {
 
         for (int i = 0; i <= 320; i += 10) {
-            graphics.setColor(Color.RED);
-            graphics.drawLine(WIDTH / 2, 0, WIDTH - i, HEIGHT );
-            graphics.setColor(Color.GREEN);
-            graphics.drawLine(WIDTH, HEIGHT - 1, WIDTH / 2, HEIGHT - i);
-            graphics.setColor(Color.BLUE);
-            graphics.drawLine(0, HEIGHT - i, WIDTH, HEIGHT - i);
+//            graphics.setColor(Color.RED);
+            graphics.drawLine((WIDTH / 2) - (int)((i / 1.73) / 1.15), (int)(i * 1.73) / 2,WIDTH - i,  (int)(HEIGHT * 1.73) / 2);
+//            graphics.setColor(Color.GREEN);
+            graphics.drawLine((WIDTH / 2) + (int)((i / 1.73) / 1.15),(int)(i * 1.73) / 2, i, (int)(HEIGHT * 1.73) / 2);
+//            graphics.setColor(Color.BLUE);
+            graphics.drawLine((WIDTH / 2) - (int)((i / 1.73) / 1.15), (int)(i * 1.73) / 2, (WIDTH / 2) + (int)((i / 1.73) / 1.15),(int)(i * 1.73) / 2);
 
         }
 
