@@ -8,16 +8,44 @@ public class SuperHexagon {
         int xCoord = 40;
         int yCoord = 58;
 
-        for (int i = 1; i <= 7; i++) {
-            for (int j = 1; j <= 7; j++) {
-                    drawSuperHexagon(xCoord, yCoord, graphics);
-                    xCoord += 30;
-                    yCoord -= 16;
+        for (int i = 0; i <= 3; i++) {
+            for (int j = 0; j <= 3; j++) {
+                drawSuperHexagon(xCoord, yCoord, graphics);
+                xCoord += 30;
+                yCoord -= 16;
             }
             xCoord = 40;
             yCoord = 58 + (i * 32);
-
-
+        }
+        //graphics.setColor(Color.GREEN);
+        for (int i = 0; i <= 3; i++) {
+            for (int j = 0; j <= 3; j++) {
+                drawSuperHexagon(xCoord, yCoord, graphics);
+                xCoord += 30;
+                yCoord += 16;
+            }
+            xCoord = 40;
+            yCoord = 58 + (i * 32);
+        }
+        //graphics.setColor(Color.BLUE);
+        for (int i = 0; i <= 3; i++) {
+            for (int j = 0; j <= 3; j++) {
+                drawSuperHexagon(xCoord, yCoord, graphics);
+                xCoord += 30;
+                yCoord += 16;
+            }
+            xCoord = 130;
+            yCoord = 10 + (i * 32);
+        }
+        //graphics.setColor(Color.RED);
+        for (int i = 0; i <= 4; i++) {
+            for (int j = 0; j <= 3; j++) {
+                drawSuperHexagon(xCoord, yCoord, graphics);
+                xCoord += 30;
+                yCoord -= 16;
+            }
+            xCoord = 130;
+            yCoord = 106 + (i * 32);
         }
     }
 
