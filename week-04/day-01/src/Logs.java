@@ -51,7 +51,7 @@ public class Logs {
         int post = 0;
 
         for (int i = 0; i < getPost.length; i++) {
-            if (getPost[i] == "GET /"){
+            if (getPost[i].equals("GET /")){
                 gets++;
             }else {
                 post++;
