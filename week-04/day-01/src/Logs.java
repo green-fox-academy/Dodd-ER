@@ -13,7 +13,7 @@ public class Logs {
         for (String elements : getIpAddresses(fileName)) {
             System.out.println(elements);
         }
-        System.out.println(getGetPostRatio(fileName));
+        System.out.println("The GET, POST request ratio: " + getGetPostRatio(fileName));
     }
 
     public static ArrayList<String> getListFromFile(String fileName){
@@ -45,19 +45,19 @@ public class Logs {
         return ipAddresses;
     }
 
-    public static int getGetPostRatio(String fileName){
+    public static double getGetPostRatio(String fileName){
         String[] getPost = getArrayFromLists(getListFromFile(fileName), 2);
-        int gets = 0;
-        int post = 0;
+        double gets = 0;
+        double posts = 0;
 
         for (int i = 0; i < getPost.length; i++) {
             if (getPost[i].equals("GET /")){
                 gets++;
             }else {
-                post++;
+                posts++;
             }
         }
 
-        return (gets / post);
+        return (gets / posts);
     }
 }
