@@ -16,7 +16,7 @@ public class WriteMultipleLines {
         // to the file and each line should be "apple"
         // The function should not raise any error if it could not write the file.
         Path filePath = Paths.get("my-apples.txt");
-        String apple = "apple";
+        String apple = "ápplé";
         int inputNum = 5;
 
         writeMultiLineFunction(filePath, apple, inputNum);
