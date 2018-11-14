@@ -10,12 +10,25 @@ public class BattleApp {
 
     hollandier.fillShip();
     inHollyness.fillShip();
+    piratesLife(hollandier);
+    piratesLife(inHollyness);
+
 
     if (hollandier.battle(inHollyness)) {
-      hollandier.report();
+      System.out.println(hollandier.report());
     } else {
-      inHollyness.report();
+      System.out.println(inHollyness.report());
     }
+  }
 
+  public static void piratesLife(Ship ship){
+    for (int i = 1; i < (Math.random() * 30); i++) {
+      ship.crew.get(i - 1).brawl(ship.crew.get(i));
+    }
+    for (int j = 1; j < (Math.random() * 4); j++) {
+      for (int k = 1; k < (Math.random() * 100); k++) {
+        ship.crew.get(j).howsItGoingMate();
+      }
+    }
   }
 }

@@ -29,10 +29,11 @@ public class Ship {
 
   public void fillShip() {
     List<Pirate> listOfPirates = new ArrayList<>();
-    int randomNum = (int)Math.random() * 100;
+    int randomNum = (int)(Math.random() * 100);
+    this.captain = new Pirate();
     for (int i = 0; i < randomNum; i++) {
       if (i == 0) {
-        listOfPirates.add(this.captain);
+        listOfPirates.add(i, this.captain);
       } else {
         listOfPirates.add(i, new Pirate());
       }
@@ -49,20 +50,22 @@ public class Ship {
     int deads = 0;
     int alives = 0;
 
-    for (Pirate pirates : this.crew) {
-      if (pirates.state == "passed out") {
+    for (int i = 0; i < this.crew.size(); i++) {
+      if (this.crew.get(i).state == "passed out") {
         passedOut++;
-      } else if (pirates.state == "dead") {
+      } else if (this.crew.get(i).state == "dead") {
         deads++;
       } else {
         alives++;
       }
     }
-    return "Captain consumed rum: " + captain.amountOfRum +
+    answer =  "Captain consumed rum: " + captain.amountOfRum +
         " \nMembers of the crew: " +
         " \n\tNumber of passed out pirates: " + passedOut +
         " \n\tNumber of deads: " + deads +
         " \n\tNumber of alive pirates: " + alives;
+
+    return answer;
   }
 
   public boolean battle(Ship othership) {
@@ -81,11 +84,12 @@ public class Ship {
 
   public int score(Ship ship) {
     int score = 0;
-    for (Pirate pirates : ship.crew) {
-      if (pirates.state == "alive") {
+    for (int i = 0; i < this.crew.size(); i++) {
+      if (this.crew.get(i).state == "alive") {
         score++;
       }
     }
-    return score - this.captain.amountOfRum;
+    score = score - this.captain.amountOfRum;
+    return score;
   }
 }

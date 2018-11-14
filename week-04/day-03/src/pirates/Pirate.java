@@ -53,19 +53,21 @@ public class Pirate {
     this.state = "dead";
   }
 
-  public void brawl(Pirate attacker, Pirate defender){
+  public void brawl(Pirate defender){
     int num = (int)(Math.random() * 3);
-    if (attacker.state == "passed out") {
-      die(attacker);
+    if (this.state == "passed out") {
+      die(this);
     } else if (defender.state == "passed out") {
       die(defender);
     } else if (num == 1) {
-      die(attacker);
+      die(this);
     } else if (num == 2) {
       die(defender);
     } else {
-      attacker.scaleOfDrunkennes = 0;
+      this.scaleOfDrunkennes = 0;
+      this.state = "passed out";
       defender.scaleOfDrunkennes = 0;
+      defender.state = "passed out";
     }
   }
 }
