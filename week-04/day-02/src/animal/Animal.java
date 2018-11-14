@@ -15,6 +15,11 @@ public class Animal {
         this.thirst = 50;
     }
 
+    Animal(int hunger, int thirst){
+        this.hunger = hunger;
+        this.thirst = thirst;
+    }
+
     public void eat(){
         this.hunger--;
     }
