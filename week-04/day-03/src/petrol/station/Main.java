@@ -16,12 +16,16 @@ public class Main {
 //          initialize capacity -> 100
     public static void main(String[] args) {
         Station benzinStation = new Station();
-        List<Car> listOfCars = new ArrayList<>(4);
+        List<Car> listOfCars = new ArrayList<>(5);
+        for (int i = 0; i < 5; i++){
+          listOfCars.add(i, new Car());
+        }
 
         for (Car elements : listOfCars){
             System.out.println("Car's gas amount before refill: " + elements.gasAmount);
             benzinStation.refill(elements);
             System.out.println("Car's gas amount after refill: " + elements.gasAmount);
+            System.out.println("Station's gas amount after refill: " + benzinStation.gasAmount);
         }
     }
 }
