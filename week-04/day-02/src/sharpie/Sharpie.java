@@ -9,10 +9,16 @@ package sharpie;
 //        We can use() the sharpie objects
 //        which decreases inkAmount
 
+import java.awt.*;
+
 public class Sharpie {
     String color;
     float width;
     float inkAmount;
+
+    public Sharpie(){
+        this("Black", (float) 5.5);
+    }
 
     public Sharpie(String color, float width){
         this.color = color;
@@ -23,4 +29,5 @@ public class Sharpie {
     public void use(){
         this.inkAmount--;
     }
+
 }
