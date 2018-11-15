@@ -26,22 +26,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2588" />
+          <entry key="java" value="2688" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2588" />
+          <entry key="JAVA" value="2688" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -128,11 +128,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringsAgain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="231">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StringAgainAndAgain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -160,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/BunniesAgain.java" />
         <option value="$PROJECT_DIR$/src/Strings.java" />
         <option value="$PROJECT_DIR$/src/StringsAgain.java" />
+        <option value="$PROJECT_DIR$/src/StringAgainAndAgain.java" />
       </list>
     </option>
   </component>
@@ -169,7 +179,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="965" />
     <option name="width" value="965" />
     <option name="height" value="1040" />
@@ -203,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542295687915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542297590110" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringsAgain">
+  <component name="RunManager" selected="Application.StringAgainAndAgain">
     <configuration name="Bunnies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bunnies" />
       <module name="day-04" />
@@ -232,8 +242,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Power" />
+    <configuration name="StringAgainAndAgain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringAgainAndAgain" />
       <module name="day-04" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -254,19 +264,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Power" />
       <item itemvalue="Application.Bunnies" />
       <item itemvalue="Application.BunniesAgain" />
       <item itemvalue="Application.Strings" />
       <item itemvalue="Application.StringsAgain" />
+      <item itemvalue="Application.StringAgainAndAgain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringAgainAndAgain" />
         <item itemvalue="Application.StringsAgain" />
         <item itemvalue="Application.Strings" />
         <item itemvalue="Application.BunniesAgain" />
         <item itemvalue="Application.Bunnies" />
-        <item itemvalue="Application.Power" />
       </list>
     </recent_temporary>
   </component>
@@ -280,12 +290,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542273821506</updated>
-      <workItem from="1542273836017" duration="14151000" />
+      <workItem from="1542273836017" duration="15046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14151000" />
+    <option name="totallyTimeSpent" value="15046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -466,8 +476,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringsAgain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="231">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringAgainAndAgain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
