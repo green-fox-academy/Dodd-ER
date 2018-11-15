@@ -6,9 +6,9 @@ public class Power {
     System.out.println(power(3, 2));
   }
 
-  private static int power(int num, int power) {
-    if (power >= 1) {
-      return num * power(num, power - 1);
+  private static int power(int power, int num) {
+    if (num >= 1) {
+      return power * power(power, num - 1);
     }
     return 1;
   }
