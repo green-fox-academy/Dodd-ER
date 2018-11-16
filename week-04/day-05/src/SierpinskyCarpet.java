@@ -4,7 +4,7 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class SierPinskyCarpet {
+public class SierpinskyCarpet {
   public static void mainDraw(Graphics graphics) {
 
     drawCarpet(0,0, 729, 729, graphics);
