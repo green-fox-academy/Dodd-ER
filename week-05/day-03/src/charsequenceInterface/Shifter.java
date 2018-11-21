@@ -4,12 +4,11 @@ import java.util.stream.IntStream;
 
 public class Shifter implements CharSequence{
  String string;
+ int num;
 
  public Shifter(String string, int num) {
-   this.string = "";
-   for (int i = num; i <string.length(); i++) {
-     this.string += string.charAt(i);
-   }
+   this.string = string;
+   this.num = num;
  }
 
   @Override
@@ -19,7 +18,7 @@ public class Shifter implements CharSequence{
 
   @Override
   public char charAt(int index) {
-    return this.string.charAt(index);
+    return this.string.charAt(index + num);
   }
 
   @Override
