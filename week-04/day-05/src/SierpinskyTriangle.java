@@ -16,12 +16,13 @@ public class SierpinskyTriangle {
 
     if (width > 3) {
       graphics.setColor(new Color((int)(Math.random() * 255), (int)(Math.random() * 255), (int)(Math.random() * 255)));
+
       graphics.drawLine(x, y, x + width, y);
       graphics.drawLine(x + width, y, x + (width / 2), y + height);
       graphics.drawLine(x + (width / 2),  y + height, x, y);
 
-      drawTriangle(x, y, (width / 2), (height / 2), graphics);
-      drawTriangle((x + (width / 2)), y, (width / 2), (height / 2), graphics);
+      drawTriangle((x), (y), (width / 2), (height / 2), graphics);
+      drawTriangle((x + (width / 2)), (y), (width / 2), (height / 2), graphics);
       drawTriangle((x + (width / 4)), (y + (height / 2)), (width / 2), (height / 2), graphics);
     }
 
