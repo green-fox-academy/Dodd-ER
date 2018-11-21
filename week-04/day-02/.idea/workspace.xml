@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbbf9ee6-9a83-4f3a-bdad-61700306c978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domino/Domino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domino/Domino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domino/Dominoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domino/Dominoes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,65 +28,65 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6038" />
+          <entry key="JAVA" value="6373" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="java" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6038" />
+          <entry key="java" value="6373" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/animal/Farm.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/domino/Domino.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="299">
+              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/animal/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/animal/Animal.java">
+        <entry file="file://$PROJECT_DIR$/src/domino/Dominoes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="124">
+              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,14 +121,14 @@
         <option value="$PROJECT_DIR$/src/fleet/of/things/Thing.java" />
         <option value="$PROJECT_DIR$/src/fleet/of/things/FleetOfThings.java" />
         <option value="$PROJECT_DIR$/src/dice/set/DiceSet.java" />
-        <option value="$PROJECT_DIR$/src/domino/Domino.java" />
-        <option value="$PROJECT_DIR$/src/domino/Dominoes.java" />
         <option value="$PROJECT_DIR$/src/sharpie/Sharpie.java" />
         <option value="$PROJECT_DIR$/src/sharpie/SharpieSet.java" />
         <option value="$PROJECT_DIR$/src/sharpie/Main.java" />
         <option value="$PROJECT_DIR$/src/animal/Animal.java" />
         <option value="$PROJECT_DIR$/src/animal/Farm.java" />
         <option value="$PROJECT_DIR$/src/animal/Main.java" />
+        <option value="$PROJECT_DIR$/src/domino/Dominoes.java" />
+        <option value="$PROJECT_DIR$/src/domino/Domino.java" />
       </list>
     </option>
   </component>
@@ -150,6 +149,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,20 +167,12 @@
               <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="animal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day-02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day-02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sharpie" type="462c0819:PsiDirectoryNode" />
+              <item name="domino" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +181,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542203377929" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542806160628" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -204,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Dominoes">
     <configuration name="DiceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dice.set.DiceSet" />
       <module name="day-02" />
@@ -279,9 +272,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dominoes" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Dominoes" />
         <item itemvalue="Application.DiceSet" />
         <item itemvalue="Application.FleetOfThings" />
       </list>
@@ -300,6 +293,7 @@
       <workItem from="1542096417675" duration="28357000" />
       <workItem from="1542186905605" duration="747000" />
       <workItem from="1542194539345" duration="7519000" />
+      <workItem from="1542800573129" duration="3460000" />
     </task>
     <servers />
   </component>
@@ -315,7 +309,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36623000" />
+    <option name="totallyTimeSpent" value="40083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,7 +324,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,7 +343,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -368,106 +362,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/domino/Dominoes.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/domino/Dominoes.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/domino/Dominoes.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/domino/Dominoes.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/domino/Dominoes.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/domino/Dominoes.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/domino/Dominoes.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/Main.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="firstFarm.freePlaces" />
@@ -588,31 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domino/Domino.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domino/Dominoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sharpie/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -624,10 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -635,6 +500,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/animal/Farm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -643,25 +515,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/animal/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="399">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/animal/Farm.java">
+    <entry file="file://$PROJECT_DIR$/src/animal/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="363">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domino/Dominoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/animal/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/domino/Domino.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="299">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

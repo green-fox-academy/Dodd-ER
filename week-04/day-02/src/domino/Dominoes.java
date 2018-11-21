@@ -1,6 +1,7 @@
 package domino;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Dominoes {
@@ -26,6 +27,13 @@ public class Dominoes {
         }
         System.out.println(dominoes);
         System.out.println(newListOfDominoes);
+        System.out.println();
+        Collections.sort(dominoes);
+
+        for (Domino item : dominoes) {
+            System.out.print(item);
+        }
+
     }
 
     static List<Domino> initializeDominoes() {
