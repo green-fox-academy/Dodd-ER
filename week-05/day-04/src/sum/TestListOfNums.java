@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-public class testListOfNums {
+public class TestListOfNums {
 
   @Test ()
   public void testSum1() {
