@@ -15,6 +15,7 @@ public class Anagram {
   }
 
   public boolean isAnagram() {
+    boolean answer = true;
     char temp1[] = this.word1.toLowerCase().toCharArray();
     char temp2[] = this.word2.toLowerCase().toCharArray();
 
@@ -24,10 +25,10 @@ public class Anagram {
     if (temp1.length != temp2.length) {
       for (int i = 0; i < temp1.length; i++) {
         if (temp1[i] != temp2[i]) {
-          return false;
+          answer = false;
         }
       }
     }
-        return true;
+        return answer;
   }
 }
