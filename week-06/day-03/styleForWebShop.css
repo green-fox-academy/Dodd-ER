@@ -1,0 +1,70 @@
+.container {
+    width: 80%;
+    height: 800px;
+    margin: 10px 10%;
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(1, 188, 212);
+    border-bottom: 2px solid rgb(1, 188, 212);
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(244, 67, 54);
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+    border: 0px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.buttons button{
+    width: 18%;    
+}
+
+.search p {
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #ff8e9a;
+}
+
+.search button, input {
+    padding: 5px;
+    margin: 0px;
+    margin-left: 0px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.search input {
+    border: 2px solid rgb(244, 67, 54);
+    border-radius: 8px;
+    width: 88%;
+}
+
+.search button {
+    height: 54px;
+    width: 10%;
+}
+
+.tableHeader {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tableHeader th {
+    height: 100px;
+    width: 30%;
+    background-color: #62efff;
+}
+
+.tableElement td {
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+}
