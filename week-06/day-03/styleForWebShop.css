@@ -23,8 +23,8 @@ button {
     border-radius: 8px;
 }
 
-.buttons button{
-    width: 18%;    
+.buttons button {
+    width: 18%;
 }
 
 .search p {
@@ -37,6 +37,7 @@ button {
     padding: 5px;
     margin: 0px;
     margin-left: 0px;
+    margin-bottom: 25px;
     height: 40px;
     font-size: 20px;
 }
