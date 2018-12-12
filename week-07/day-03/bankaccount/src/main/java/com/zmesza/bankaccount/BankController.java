@@ -13,10 +13,10 @@ public class BankController {
   public List<BankAccount> accounts = new ArrayList<>();
 
   public BankController() {
-    accounts.add(new BankAccount("Simba", 2000, "Lion"));
-    accounts.add(new BankAccount("Mufasza", 23000, "Lion"));
-    accounts.add(new BankAccount("Timon", 300, "Surikata"));
-    accounts.add(new BankAccount("Pumba", 200, "Pig"));
+    accounts.add(new BankAccount("Simba", 2000, "Lion", false));
+    accounts.add(new BankAccount("Mufasza", 23000, "Lion", true));
+    accounts.add(new BankAccount("Timon", 300, "Surikata", false));
+    accounts.add(new BankAccount("Pumba", 200, "Pig", false));
   }
 
   @RequestMapping(path = "/show", method = RequestMethod.GET)

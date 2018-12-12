@@ -3,13 +3,16 @@ package com.zmesza.bankaccount;
 public class BankAccount {
   private String name;
   private float balance;
-  private String animaltype;
+  private String animalType;
   private String currency;
+  private boolean isKing;
 
-  public BankAccount(String name, float balance, String animaltype) {
+  public BankAccount(String name, float balance, String animalType, boolean isKing) {
     this.name = name;
     this.balance = balance;
-    this.animaltype = animaltype;
+    this.animalType = animalType;
+    this.currency = "Zebra";
+    this.isKing = isKing;
   }
 
   public String getName() {
@@ -20,11 +23,15 @@ public class BankAccount {
     return this.balance;
   }
 
-  public String getAnimaltype() {
-    return this.animaltype;
+  public String getAnimalType() {
+    return this.animalType;
   }
 
   public String getCurrency() {
-    return "zebra";
+    return this.currency;
+  }
+
+  public String getIsKing() {
+    return (isKing)? "KING look shiny :P" : " ";
   }
 }
