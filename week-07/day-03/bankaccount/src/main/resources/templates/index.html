@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bank of Simba</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+
+<div>
+    <th th:each="account : ${accounts}" >
+        <tr th:text="${account.getName()} + ' - ' +${account.getBalance()} + ' (' + ${account.getAnimaltype()} + ') '"></tr>
+    </th>
+</div>
+
+</body>
+</html>
