@@ -38,19 +38,6 @@ public class BankAccount {
   }
 
   public String getGoodOrBad() {
-    switch (this.getName()) {
-      case "Simba":
-        return "Good guy";
-      case "Mufasza":
-        return "Good guy";
-      case "Timon":
-        return "Good guy";
-      case "Pumba":
-        return "Good guy";
-      case "Zordon":
-        return "Bad guy";
-      default:
-        return "Neutral guy";
-    }
+    return (this.getName() == "Zordon") ? "Bad guy" : "Good guy";
   }
 }
