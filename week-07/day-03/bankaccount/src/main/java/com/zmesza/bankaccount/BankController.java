@@ -25,4 +25,12 @@ public class BankController {
     model.addAttribute("accounts", accounts);
     return "index";
   }
+
+  @RequestMapping(path = "/fun", method = RequestMethod.GET)
+  public String haveFun(Model model) {
+    String funModel = "This is an <em>HTML</em> text. <b>Enjoy yourself!</b>";
+     model.addAttribute("funny", funModel);
+
+    return "fun";
+  }
 }

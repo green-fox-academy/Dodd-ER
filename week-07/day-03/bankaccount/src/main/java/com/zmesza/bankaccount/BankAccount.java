@@ -4,6 +4,7 @@ public class BankAccount {
   private String name;
   private float balance;
   private String animaltype;
+  private String currency;
 
   public BankAccount(String name, float balance, String animaltype) {
     this.name = name;
@@ -21,5 +22,9 @@ public class BankAccount {
 
   public String getAnimaltype() {
     return this.animaltype;
+  }
+
+  public String getCurrency() {
+    return "zebra";
   }
 }
