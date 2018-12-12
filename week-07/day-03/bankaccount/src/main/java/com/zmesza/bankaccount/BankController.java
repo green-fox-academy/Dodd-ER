@@ -34,4 +34,12 @@ public class BankController {
 
     return "fun";
   }
+
+//  @RequestMapping(path = "/update", method = RequestMethod.POST)
+//  public String haveFun(Model model) {
+//    String funModel = "This is an <em>HTML</em> text. <b>Enjoy yourself!</b>";
+//    model.addAttribute("funny", funModel);
+//
+//    return "fun";
+//  }
 }

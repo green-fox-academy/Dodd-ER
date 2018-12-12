@@ -34,10 +34,18 @@ public class BankAccount {
   }
 
   public String getIsKing() {
-    return (isKing) ? "KING, looks shiny :P" : " ";
+    return (this.isKing) ? "KING, looks shiny :P" : " ";
   }
 
   public String getGoodOrBad() {
     return (this.getName() == "Zordon") ? "Bad guy" : "Good guy";
+  }
+
+  public void setBalance() {
+    if (this.isKing) {
+      this.balance += 100;
+    } else {
+      this.balance += 10;
+    }
   }
 }
