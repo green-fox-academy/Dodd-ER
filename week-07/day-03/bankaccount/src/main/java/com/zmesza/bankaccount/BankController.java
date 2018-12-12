@@ -17,6 +17,7 @@ public class BankController {
     accounts.add(new BankAccount("Mufasza", 23000, "Lion", true));
     accounts.add(new BankAccount("Timon", 300, "Surikata", false));
     accounts.add(new BankAccount("Pumba", 200, "Pig", false));
+    accounts.add(new BankAccount("Zordon", 1200, "Lion", false));
   }
 
   @RequestMapping(path = "/show", method = RequestMethod.GET)

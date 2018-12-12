@@ -6,6 +6,7 @@ public class BankAccount {
   private String animalType;
   private String currency;
   private boolean isKing;
+  private String goodOrBad;
 
   public BankAccount(String name, float balance, String animalType, boolean isKing) {
     this.name = name;
@@ -13,6 +14,7 @@ public class BankAccount {
     this.animalType = animalType;
     this.currency = "Zebra";
     this.isKing = isKing;
+    this.goodOrBad = "";
   }
 
   public String getName() {
@@ -32,6 +34,23 @@ public class BankAccount {
   }
 
   public String getIsKing() {
-    return (isKing)? "KING look shiny :P" : " ";
+    return (isKing) ? "KING, looks shiny :P" : " ";
+  }
+
+  public String getGoodOrBad() {
+    switch (this.getName()) {
+      case "Simba":
+        return "Good guy";
+      case "Mufasza":
+        return "Good guy";
+      case "Timon":
+        return "Good guy";
+      case "Pumba":
+        return "Good guy";
+      case "Zordon":
+        return "Bad guy";
+      default:
+        return "Neutral guy";
+    }
   }
 }
