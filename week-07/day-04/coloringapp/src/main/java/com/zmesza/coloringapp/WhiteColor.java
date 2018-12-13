@@ -8,7 +8,7 @@ public class WhiteColor implements MyColor{
   }
 
   @Override
-  public void printColor() {
-    System.out.println(this.nameOfColor);
+  public String printColor() {
+    return this.nameOfColor;
   }
 }

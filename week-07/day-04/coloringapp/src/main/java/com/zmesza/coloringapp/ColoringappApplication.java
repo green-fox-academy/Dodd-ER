@@ -8,9 +8,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ColoringappApplication implements CommandLineRunner {
 
+  Printer prntr;
+
   @Autowired
-  public ColoringappApplication(MyColor color) {
-    color.printColor();
+  public ColoringappApplication(MyColor color, Printer prntr) {
+    this.prntr = prntr;
+    prntr.log(color);
   }
 
   public static void main(String[] args) {
@@ -19,7 +22,7 @@ public class ColoringappApplication implements CommandLineRunner {
 
   @Override
   public void run(String... args) throws Exception {
-    new ColoringappApplication(new RedColor());
+    new ColoringappApplication(new WhiteColor(), new Printer());
   }
 }
 
