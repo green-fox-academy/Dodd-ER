@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Fox club</title>
@@ -16,8 +16,11 @@
         <img src="/static/greenfox.png" alt="FoxImage">
     </div>
 
-    <div >
-        <p>This is Pityu Currently living on pizza and lemonade. He knows 2 tricks.</p>
+    <div>
+        <p th:text="'This is ' + ${name} + ', Currently living on ' + ${food}
+        +' and drinking ' + ${drink}
+        +'. He knows 3 tricks.'"></p>
+        <!--<p>This is Pityu Currently living on pizza and lemonade. He knows 2 tricks.</p>-->
     </div>
 
     <div>
