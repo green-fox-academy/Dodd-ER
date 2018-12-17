@@ -28,7 +28,9 @@ public class TodoController {
   public String list(Model model) {
     repository.save(new Todo("Buy more milk!"));
     repository.save(new Todo("MORE MILK"));
-    model.addAttribute("title", repository.findAll());
+    List<Todo> todos = new ArrayList<>();
+    repository.findAll().forEach(todos :: add);
+    model.addAttribute("todos", todos);
     return "todolist";
   }
 }

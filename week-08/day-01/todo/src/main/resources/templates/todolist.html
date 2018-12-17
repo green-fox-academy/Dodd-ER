@@ -10,8 +10,8 @@
     </div>
 
     <div>
-        <ul th:each="titleToPrint:${title}">
-            <li th:text="${titleToPrint.getTitle()}"></li>
+        <ul th:each="todo :${todos}">
+            <li th:text="${todo.title}"></li>
         </ul>
     </div>
 </body>
