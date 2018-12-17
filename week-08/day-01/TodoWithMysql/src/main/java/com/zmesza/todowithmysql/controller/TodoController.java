@@ -1,7 +1,7 @@
-package com.zmesza.todo.controller;
+package com.zmesza.todowithmysql.controller;
 
-import com.zmesza.todo.repository.Todo;
-import com.zmesza.todo.repository.TodoRepository;
+import com.zmesza.todowithmysql.repository.Todo;
+import com.zmesza.todowithmysql.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,8 +24,8 @@ public class TodoController {
 
   @GetMapping(value = {"/", "/list"})
   public String list(Model model) {
-    repository.save(new Todo("Buy more milk!"));
-    repository.save(new Todo("MORE MILK"));
+//    repository.save(new Todo("Buy more milk!"));
+//    repository.save(new Todo("MORE MILK"));
     List<Todo> todos = new ArrayList<>();
     repository.findAll().forEach(todos :: add);
     model.addAttribute("todos", todos);
