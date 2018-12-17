@@ -14,8 +14,10 @@ public class Todo {
   private boolean isUrgent;
   private boolean isDone;
 
-  public Todo(long id, String title) {
-    this.id = id;
+
+  public Todo() {}
+
+  public Todo(String title) {
     this.title = title;
     this.isUrgent = false;
     this.isDone = false;
