@@ -31,11 +31,11 @@ public class Todo {
     return title;
   }
 
-  public boolean isUrgent() {
+  public boolean getIsUrgent() {
     return isUrgent;
   }
 
-  public boolean isDone() {
+  public boolean getIsDone() {
     return isDone;
   }
 }
