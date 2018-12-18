@@ -1,4 +1,4 @@
-package com.zmesza.todo.repository;
+package com.zmesza.todo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,20 +7,20 @@ import javax.persistence.Id;
 
 @Entity
 public class Todo {
+
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
   private String title;
-  private boolean isUrgent;
-  private boolean isDone;
-
+  private boolean urgent;
+  private boolean done;
 
   public Todo() {}
 
   public Todo(String title) {
     this.title = title;
-    this.isUrgent = false;
-    this.isDone = false;
+    this.urgent = false;
+    this.done = false;
   }
 
   public long getId() {
@@ -32,10 +32,26 @@ public class Todo {
   }
 
   public boolean isUrgent() {
-    return isUrgent;
+    return urgent;
   }
 
   public boolean isDone() {
-    return isDone;
+    return done;
+  }
+
+  public void setId(long id) {
+    this.id = id;
+  }
+
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  public void setUrgent(boolean urgent) {
+    this.urgent = urgent;
+  }
+
+  public void setDone(boolean done) {
+    this.done = done;
   }
 }

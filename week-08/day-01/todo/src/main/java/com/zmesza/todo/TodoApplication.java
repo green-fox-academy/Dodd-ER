@@ -1,6 +1,5 @@
 package com.zmesza.todo;
 
-import com.zmesza.todo.repository.Todo;
 import com.zmesza.todo.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -18,8 +17,6 @@ public class TodoApplication implements CommandLineRunner{
   }
 
   @Override
-  public void run(String... args) throws Exception {
-    repository.save((new Todo("I have to learn Object Relational Mapping")));
-  }
+  public void run(String... args) throws Exception {}
 }
 

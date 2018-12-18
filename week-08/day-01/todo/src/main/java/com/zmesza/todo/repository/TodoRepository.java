@@ -1,5 +1,6 @@
 package com.zmesza.todo.repository;
 
+import com.zmesza.todo.model.Todo;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

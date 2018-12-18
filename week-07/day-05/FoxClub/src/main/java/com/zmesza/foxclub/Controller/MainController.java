@@ -23,6 +23,7 @@ public class MainController {
     model.addAttribute("name", myFox.getName());
     model.addAttribute("food", myFox.getFood());
     model.addAttribute("drink", myFox.getDrink());
+    model.addAttribute("tricks", myFox.getListOfTricks());
     return "information";
   }
 
@@ -31,12 +32,23 @@ public class MainController {
     return "login";
   }
 
+  @GetMapping("nutrition")
+  public String NutritionSet() {
+    return "information";
+  }
+
+  @GetMapping("tricks")
+  public String AddTrick() {
+    return "information";
+  }
+
   @PostMapping("/info")
   public String loginPost(@RequestParam String nameInput, Model model) {
     myFox.setName(nameInput);
     model.addAttribute("name", myFox.getName());
     model.addAttribute("food", myFox.getFood());
     model.addAttribute("drink", myFox.getDrink());
+    model.addAttribute("tricks", myFox.getListOfTricks());
     return "information";
   }
 }

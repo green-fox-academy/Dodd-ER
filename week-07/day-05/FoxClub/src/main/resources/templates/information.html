@@ -8,19 +8,20 @@
 <body>
     <div>
         <ul>
-            <a href="http://localhost:8080/info">Information</a>
+            <li><a href="http://localhost:8080/info">Information</a></li>
+            <li><a href="http://localhost:8080/nutrition">Nutrition store</a></li>
+            <li><a href="http://localhost:8080/tricks">Trick center</a></li>
         </ul>
     </div>
 
     <div>
-        <img src="/static/greenfox.png" alt="FoxImage">
+        <img src="/static/greenFox.png" alt="FoxImage">
     </div>
 
     <div>
         <p th:text="'This is ' + ${name} + ', Currently living on ' + ${food}
         +' and drinking ' + ${drink}
         +'. He knows 3 tricks.'"></p>
-        <!--<p>This is Pityu Currently living on pizza and lemonade. He knows 2 tricks.</p>-->
     </div>
 
     <div>
@@ -28,9 +29,8 @@
     </div>
 
     <div>
-        <ul>
-            <li>write HTML</li>
-            <li>code in Java</li>
+        <ul th:each="trick : ${tricks}">
+            <li th:text="${trick}"></li>
         </ul>
     </div>
 </body>
