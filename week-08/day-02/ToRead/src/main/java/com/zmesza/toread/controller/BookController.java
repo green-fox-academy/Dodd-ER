@@ -52,8 +52,8 @@ public class BookController {
   }
 
   @PostMapping(value = "/{id}/edit")
-  public String editItem(@PathVariable int id) {
-    this.bookService.editBookById(id);
+  public String editItem(@ModelAttribute Book book) {
+    this.bookService.saveNewBook(book);
     return "redirect:/";
   }
 }

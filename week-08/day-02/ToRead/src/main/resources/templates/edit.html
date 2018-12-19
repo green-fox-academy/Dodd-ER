@@ -16,7 +16,7 @@
 </nav>
 <div class="container">
     <h1>BOOKS TO READ</h1>
-    <form method="post" action="/edit" th:object="${book}">
+    <form method="post" th:action="@{/${book.id}/edit}" th:object="${book}">
         <div>
             <label for="title">Name of book: </label>
             <input id="title" name="title" th:field="*{title}"><br>
@@ -26,10 +26,10 @@
             <input id="important" type="checkbox" th:field="*{important}">
         </div>
         <div>
-            <label for="finished">Still unread?</label>
+            <label for="finished">Finished?</label>
             <input id="finished" type="checkbox" th:field="*{finished}">
         </div>
-        <button>Add task</button>
+        <button>Edit</button>
     </form>
 </div>
 

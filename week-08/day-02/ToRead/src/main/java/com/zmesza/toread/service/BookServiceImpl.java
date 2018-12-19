@@ -52,6 +52,6 @@ public class BookServiceImpl implements BookService {
 
   @Override
   public void editBookById(int id) {
-    this.repository.findById(id).setFinished(false);
+    //this.repository.findById(id).get().setFinished(true);
   }
 }
