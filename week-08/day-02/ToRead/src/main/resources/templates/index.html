@@ -9,51 +9,51 @@
     <a href="/">Books for Life</a>
     <div>
         <ul>
-            <li><a href="/?isActive=true">Show unfinished books</a></li>
+            <li><a href="/?unRead=true">Show unfinished books</a></li>
             <li><a href="/addbook">Add new task</a></li>
         </ul>
     </div>
 </nav>
-    <div class="container">
-        <h1>BOOKS TO READ</h1>
-        <table>
-            <thead>
-                <tr>
-                    <td>Id</td>
-                    <td>Title</td>
-                    <td>Finished</td>
-                    <td>Important</td>
-                </tr>
-            </thead>
-            <tbody th:each="book : ${listOfBooks}">
-                <tr>
-                    <td th:text="${book.getId()}"></td>
-                    <td th:text="${book.getTitle()}"></td>
-                    <td th:if="${book.isFinished()}">
-                        <i>YES</i>
-                    </td>
-                    <td th:unless="${book.isFinished()}">
-                        <i>Nope</i>
-                    </td>
-                    <td th:if="${book.isImportant()}">
-                        <i>YES</i>
-                    </td>
-                    <td th:unless="${book.isImportant()}">
-                        <i>Nope</i>
-                    </td>
-                    <td>
-                        <form th:action="@{/{id}/edit(id=*{book.getId()})}" method="get">
-                            <button type="submit">edit</button>
-                        </form>
-                    </td>
-                    <td>
-                        <form th:action="@{/{id}/delete(id=*{book.getId()})}" method="post">
-                            <button type="submit">delete</button>
-                        </form>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+<div class="container">
+    <h1>BOOKS TO READ</h1>
+    <table>
+        <thead>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Finished</td>
+            <td>Important</td>
+        </tr>
+        </thead>
+        <tbody th:each="book : ${listOfBooks}">
+        <tr>
+            <td th:text="${book.getId()}"></td>
+            <td th:text="${book.getTitle()}"></td>
+            <td th:if="${book.isFinished()}">
+                <i>YES</i>
+            </td>
+            <td th:unless="${book.isFinished()}">
+                <i>Nope</i>
+            </td>
+            <td th:if="${book.isImportant()}">
+                <i>YES</i>
+            </td>
+            <td th:unless="${book.isImportant()}">
+                <i>Nope</i>
+            </td>
+            <td>
+                <form th:action="@{/{id}/edit(id=*{book.getId()})}" method="get">
+                    <button type="submit">edit</button>
+                </form>
+            </td>
+            <td>
+                <form th:action="@{/{id}/delete(id=*{book.getId()})}" method="post">
+                    <button type="submit">delete</button>
+                </form>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
 </body>
 </html>

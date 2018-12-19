@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit book</title>
+</head>
+<body>
+<nav>
+    <a href="/">Books for Life</a>
+    <div>
+        <ul>
+            <li><a href="/?isActive=true">Show unfinished books</a></li>
+            <li><a href="/addbook">Add new task</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <h1>BOOKS TO READ</h1>
+    <form method="post" action="/edit" th:object="${book}">
+        <div>
+            <label for="title">Name of book: </label>
+            <input id="title" name="title" th:field="*{title}"><br>
+        </div>
+        <div>
+            <label for="important">Is it important?</label>
+            <input id="important" type="checkbox" th:field="*{important}">
+        </div>
+        <div>
+            <label for="finished">Still unread?</label>
+            <input id="finished" type="checkbox" th:field="*{finished}">
+        </div>
+        <button>Add task</button>
+    </form>
+</div>
+
+</body>
+</html>
