@@ -7,9 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Controller
 @RequestMapping(value = "/todo")
 public class TodoController {
@@ -28,7 +25,7 @@ public class TodoController {
     } else {
       model.addAttribute(todoService.getAllTodo());
     }
-    return "todolist";
+    return "addtodo";
   }
 
   @GetMapping(value = "/addtodo")
