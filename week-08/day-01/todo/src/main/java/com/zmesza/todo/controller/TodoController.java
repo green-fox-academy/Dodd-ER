@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping(value = "/todo")
+//@RequestMapping(value = "/todo")
 public class TodoController {
 
   public TodoService todoService;
@@ -21,17 +21,17 @@ public class TodoController {
   @GetMapping(value = {"/", "/list"})
   public String list(Model model, @RequestParam (value="isActive", required = false) boolean isActive) {
     if (isActive) {
-      model.addAttribute(todoService.getActiveTodo());
+      model.addAttribute("listOfTodos", todoService.getActiveTodo());
     } else {
-      model.addAttribute(todoService.getAllTodo());
+      model.addAttribute("listOfTodos", todoService.getAllTodo());
     }
-    return "addtodo";
+    return "index";
   }
 
   @GetMapping(value = "/addtodo")
   public String newItemPage(Model model) {
     model.addAttribute("todo", new Todo());
-    return "/addtodo";
+    return "addtodo";
   }
 
   @PostMapping(value = "/addtodo")
@@ -49,7 +49,7 @@ public class TodoController {
   @GetMapping(value = "/{id}/edit")
   public String editItemPage(Model model, @PathVariable long id) {
     model.addAttribute("todo", todoService.getTodoById(id));
-    return "edittodo";
+    return "edit";
   }
   @PostMapping(value = "/{id}/edit")
   public String editItem(@ModelAttribute Todo todo) {
