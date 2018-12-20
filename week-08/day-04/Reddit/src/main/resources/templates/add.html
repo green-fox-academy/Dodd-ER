@@ -7,7 +7,7 @@
 <body>
 <div class="container">
     <h1>ADD NEW POST</h1>
-    <form method="post" th:action="@{/{id}/add(id=${userid})}" th:object="${post}">
+    <form method="post" th:action="@{/add}" th:object="${post}">
         <div>
             <input type="hidden" name="id" th:field="*{id}">
         </div>

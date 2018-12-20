@@ -12,7 +12,7 @@ public class Post {
 
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name="user_id")
-  private int user;
+  private User user;
 
   private Date date;
   private String title;
@@ -21,7 +21,7 @@ public class Post {
 
   public Post() {}
 
-  public Post(int user, Date date, String title, String url,) {
+  public Post(User user, Date date, String title, String url) {
     this.user = user;
     this.date = date;
     this.title = title;
@@ -37,11 +37,11 @@ public class Post {
     this.id = id;
   }
 
-  public int getUser() {
+  public User getUser() {
     return user;
   }
 
-  public void setUser(int user) {
+  public void setUser(User user) {
     this.user = user;
   }
 

@@ -10,8 +10,7 @@ public class User {
   @GeneratedValue
   private int id;
 
-  @OneToMany(fetch = FetchType.LAZY)
-  @JoinColumn(name="post_id")
+  @OneToMany(mappedBy = "user")
   private List<Post> posts;
 
   private String name;

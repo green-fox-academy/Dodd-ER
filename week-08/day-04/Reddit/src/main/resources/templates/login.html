@@ -7,7 +7,7 @@
 <body>
 <div class="container">
     <h1>LOGIN</h1>
-    <form method="post" th:action="@{/{id}/login(id=*{id})}" th:object="${user}">
+    <form method="post" th:object="${user}" th:action="@{/login}">
         <div>
             <input type="hidden" name="id" th:field="*{id}">
             <label for="title">UserName: </label>
