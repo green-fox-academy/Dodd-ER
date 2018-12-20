@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add new post</title>
+</head>
+<body>
+<div class="container">
+    <h1>ADD NEW POST</h1>
+    <form method="post" th:action="@{/{id}/add(id=${userid})}" th:object="${post}">
+        <div>
+            <input type="hidden" name="id" th:field="*{id}">
+        </div>
+        <div>
+            <label for="title">Title: </label>
+            <input id="title" name="title" th:field="*{title}"><br>
+        </div>
+        <div>
+            <label for="url">Title: </label>
+            <input id="url" name="url" th:field="*{url}"><br>
+        </div>
+        <button>Login</button>
+    </form>
+</div>
+</body>
+</html>
