@@ -16,7 +16,7 @@
 </nav>
 <div class="container">
     <h1>BOOKS TO READ</h1>
-    <form method="post" th:action="@{/${book.id}/edit}" th:object="${book}">
+    <form method="post" th:action="@{/{id}/edit(id=*{id})}" th:object="${book}">
         <div>
             <label for="title">Name of book: </label>
             <input id="title" name="title" th:field="*{title}"><br>
