@@ -9,8 +9,10 @@
     <a href="/">Books for Life</a>
     <div>
         <ul>
-            <li><a href="/?isActive=true">Show unfinished books</a></li>
-            <li><a href="/addbook">Add new task</a></li>
+            <li><a href="/?unRead=true">Show unfinished books</a></li>
+            <li><a href="/addbook">Add new book</a></li>
+            <li><a href="/users">Show users</a></li>
+            <li><a href="/users/adduser">Add new user</a></li>
         </ul>
     </div>
 </nav>
@@ -20,6 +22,12 @@
         <div>
             <label for="title">Name of book: </label>
             <input id="title" name="title" th:field="*{title}"><br>
+        </div>
+        <div>
+            <label for="user">Who has this particular book: </label>
+            <select id="user" name="user">
+                <option th:each="user : ${user}" th:utext="${user.getName()}" th:value="${user.getId()}"></option>
+            </select>
         </div>
         <div>
             <label for="important">Is it important?</label>

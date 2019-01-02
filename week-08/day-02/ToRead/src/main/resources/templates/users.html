@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+<nav>
+    <a href="/">Books for Life</a>
+    <div>
+        <ul>
+            <li><a href="/?unRead=true">Show unfinished books</a></li>
+            <li><a href="/addbook">Add new book</a></li>
+            <li><a href="/users">Show users</a></li>
+            <li><a href="/users/adduser">Add new user</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <h1>Users of BookMoly</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Email address</td>
+            <td></td>
+        </tr>
+        </thead>
+        <tbody th:each="user : ${users}">
+            <tr>
+                <td th:text="${user.id}"></td>
+                <td th:text="${user.name}"></td>
+                <td th:text="${user.email}"></td>
+                <td>
+                    <form th:action="@{/users/{id}/edit(id=*{user.id})}" method="get">
+                        <button type="submit">edit</button>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

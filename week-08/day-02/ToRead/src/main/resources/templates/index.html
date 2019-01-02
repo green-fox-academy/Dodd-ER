@@ -10,7 +10,9 @@
     <div>
         <ul>
             <li><a href="/?unRead=true">Show unfinished books</a></li>
-            <li><a href="/addbook">Add new task</a></li>
+            <li><a href="/addbook">Add new book</a></li>
+            <li><a href="/users">Show users</a></li>
+            <li><a href="/users/adduser">Add new user</a></li>
         </ul>
     </div>
 </nav>
@@ -21,6 +23,7 @@
         <tr>
             <td>Id</td>
             <td>Title</td>
+            <td>Who has</td>
             <td>Finished</td>
             <td>Important</td>
         </tr>
@@ -29,6 +32,7 @@
         <tr>
             <td th:text="${book.getId()}"></td>
             <td th:text="${book.getTitle()}"></td>
+            <td th:text="${book.getUser().getName()}"></td>
             <td th:if="${book.isFinished()}">
                 <i>YES</i>
             </td>

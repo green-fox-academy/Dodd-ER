@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 @Service
 public class BookServiceImpl implements BookService {
 
-  BookRepository repository;
+  private BookRepository repository;
 
   @Autowired
   public BookServiceImpl(BookRepository repository) {

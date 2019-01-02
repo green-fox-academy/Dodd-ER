@@ -1,8 +1,6 @@
 package com.zmesza.toread.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Book {
@@ -14,10 +12,15 @@ public class Book {
   private boolean finished;
   private boolean important;
 
+  @ManyToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "userId")
+  private User user;
+
   public Book() {}
 
-  public Book(int id, String title) {
+  public Book(int id, String title, User user) {
     this.title = title;
+    this.user = user;
     this.finished = false;
     this.important = false;
   }
@@ -36,6 +39,14 @@ public class Book {
 
   public void setTitle(String title) {
     this.title = title;
+  }
+
+  public User getUser() {
+    return user;
+  }
+
+  public void setUser(User user) {
+    this.user = user;
   }
 
   public boolean isFinished() {
