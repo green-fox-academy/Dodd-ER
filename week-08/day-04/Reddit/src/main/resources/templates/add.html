@@ -7,19 +7,20 @@
 <body>
 <div class="container">
     <h1>ADD NEW POST</h1>
-    <form method="post" th:action="@{/add}" th:object="${post}">
+    <form method="post" th:action="@{/{id}/add(id=${user.id})}" th:object="${post}">
         <div>
-            <input type="hidden" name="id" th:field="*{id}">
+            <input type="hidden" name="post_id" th:field="${post.id}">
+            <input type="hidden" name="user_id" th:field="${post.user}">
         </div>
         <div>
             <label for="title">Title: </label>
             <input id="title" name="title" th:field="*{title}"><br>
         </div>
         <div>
-            <label for="url">Title: </label>
+            <label for="url">Url: </label>
             <input id="url" name="url" th:field="*{url}"><br>
         </div>
-        <button>Login</button>
+        <button>Add new post</button>
     </form>
 </div>
 </body>

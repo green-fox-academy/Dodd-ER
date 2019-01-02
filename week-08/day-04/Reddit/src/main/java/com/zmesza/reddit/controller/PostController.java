@@ -42,15 +42,35 @@ public class PostController {
     return "index";
   }
 
-  @GetMapping(value = "/add")
-  public String getItemPage(Model model) {
+  @GetMapping(value = "/{id}/add")
+  public String getItemPage(@PathVariable int id,Model model) {
     model.addAttribute("post", new Post());
+    model.addAttribute("user", this.userService.getUserById(id));
     return "add";
   }
 
-  @PostMapping(value = "/add")
-  public String getItem(@ModelAttribute Post post) {
+  @PostMapping(value = "/{id}/add")
+  public String getItem(@PathVariable int id, @ModelAttribute Post post) {
     this.postService.saveNewPost(post);
     return "redirect:/index";
   }
+
+  @PostMapping(value="/{id}/voteup")
+  public String sendVoteUp(@PathVariable int id) {
+    this.postService.voteUpById(id);
+    return "redirect:/index";
+  }
+
+  @PostMapping(value = "/{id}/votedown")
+  public String sendVoteDown(@PathVariable int id) {
+    this.postService.voteDownById(id);
+    return "redirect:/index";
+  }
+
+  @PostMapping(value = "/{id}/delete")
+  public String deleteItem(@PathVariable int id) {
+    this.postService.deletePostById(id);
+    return "redirect:/index";
+  }
+
 }

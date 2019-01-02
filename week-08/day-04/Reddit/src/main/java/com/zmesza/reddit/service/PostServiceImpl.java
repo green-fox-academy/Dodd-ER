@@ -32,7 +32,7 @@ public class PostServiceImpl implements PostService {
 
   @Override
   public void deletePostById(int id) {
-
+    this.repository.deleteById(id);
   }
 
   @Override
@@ -42,11 +42,13 @@ public class PostServiceImpl implements PostService {
 
   @Override
   public void voteUpById(int id) {
-
+    this.repository.findById(id).orElse(null).setScore(10);
+    this.repository.save(this.repository.findById(id).orElse(null));
   }
 
   @Override
   public void voteDownById(int id) {
-
+    this.repository.findById(id).orElse(null).setScore(-10);
+    this.repository.save(this.repository.findById(id).orElse(null));
   }
 }

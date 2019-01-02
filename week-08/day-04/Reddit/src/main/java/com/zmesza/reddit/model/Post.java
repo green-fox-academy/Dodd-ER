@@ -73,7 +73,7 @@ public class Post {
     return score;
   }
 
-  public void setScore(int score) {
-    this.score = score;
+  public void setScore(int incr) {
+    this.score += incr;
   }
 }

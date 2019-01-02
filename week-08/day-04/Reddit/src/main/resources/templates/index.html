@@ -5,15 +5,15 @@
     <title>Reddit</title>
 </head>
 <body>
-<nav>
-    <a href="/">REDDIT</a>
-    <div>
+<form th:object="${user}">
+    <h1 th:text="'Hello, '+ ${user.name}"></h1>
+    <ul>
+        <li><a href="/index">REDDIT</a></li>
+        <li><a href="/login">login</a></li>
+        <li><a th:href="@{/{id}/add(id=${user.id})}">Add new post</a></li>
 
-        <a href="/login">login</a>
-        <a href="/add">Add new post</a>
-
-    </div>
-</nav>
+    </ul>
+</form>
 <div class="container">
     <h1>REDDIT</h1>
     <table>
@@ -29,16 +29,21 @@
         <tr>
             <td th:text="${post.getScore()}"></td>
             <td>
-                <form th:action="@{/{id}/voteup(id=*{post.getId()})}" method="post">
-                    <button type="submit">Good One</button>
+                <form action= "#" th:action="@{/{id}/voteup(id=*{post.id})}" method="post">
+                    <button>Good One</button>
                 </form>
             </td>
             <td>
-                <form th:action="@{/{id}/votedown(id=*{post.getId()})}" method="post">
+                <form action= "#" th:action="@{/{id}/votedown(id=*{post.id})}" method="post">
                     <button type="submit">Bad One</button>
                 </form>
             </td>
-            <td th:text="${post.getTitle()}"></td>
+            <td><a th:href="${post.url}" th:text="${post.title}"></a></td>
+            <td>
+                <form action= "#" th:action="@{/{id}/delete(id=*{post.id})}" method="post">
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
         </tr>
         </tbody>
     </table>
