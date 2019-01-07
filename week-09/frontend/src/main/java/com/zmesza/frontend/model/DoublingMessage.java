@@ -1,10 +1,10 @@
 package com.zmesza.frontend.model;
 
-public class Message {
+public class DoublingMessage {
 
   private String error;
 
-  public Message() {
+  public DoublingMessage() {
     this.error = "Please provide an input!";
   }
 
