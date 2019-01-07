@@ -3,10 +3,7 @@ package com.zmesza.frontend.controller;
 import com.zmesza.frontend.model.*;
 import com.zmesza.frontend.service.MainService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
@@ -44,4 +41,9 @@ public class JSonController {
     return new WordToAppend(appendable);
   }
 
+  @PostMapping(value = "/dountil/{action}")
+  @ResponseBody()
+  public Object doUntilFunction(@PathVariable String action, @RequestBody JasonObject jasonObject) {
+    return new playWithNums(jasonObject.getUntil(), action);
+  }
 }
