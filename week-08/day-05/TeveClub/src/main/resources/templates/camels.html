@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Camel Tavern</title>
+</head>
+<body>
+<div class="container">
+    <div>
+        <ul>
+            <li><a href="/camels">Famous Camels</a></li>
+            <li><a href="/users">Show users</a></li>
+            <li><a href="/user/{id}/login">Login</a></li>
+            <li><a href="/user/registration">Registration</a></li>
+        </ul>
+    </div>
+    <h1>Welcome to the CamelClub</h1>
+    <h2>Our most famous Camels:</h2>
+    <table>
+        <thead>
+        <tr>
+            <td>Name</td>
+            <td>Owner</td>
+            <td>Favourite food</td>
+            <td>Favourite drink</td>
+            <td>Newest trick</td>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="camel : ${listOfCamels}">
+            <tr>
+                <td th:text="${camel.getName()}"></td>
+                <td th:text="${camel.getUser().getName}"></td>
+                <td th:text="${camel.getFood()}"></td>
+                <td th:text="${camel.getDrink()}"></td>
+                <td th:text="${camel.getTrick()}"></td>
+            </tr>
+        </th:block>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User Tavern</title>
+</head>
+<body>
+<div class="container">
+    <div>
+        <ul>
+            <li><a href="/camels">Famous Camels</a></li>
+            <li><a href="/users">Show users</a></li>
+            <li><a href="/user/{id}/login">Login</a></li>
+            <li><a href="/user/registration">Registration</a></li>
+        </ul>
+    </div>
+    <h1>Welcome to the CamelClub</h1>
+    <h2>Our most glorious Owners:</h2>
+    <table>
+        <thead>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Email address</td>
+            <td>Joining Date</td>
+            <td>List of Camels</td>
+        </tr>
+        </thead>
+        <tbody>
+        <th:block th:each="user : ${listOfUsers}">
+            <tr>
+                <td th:text="${user.getId()}"></td>
+                <td th:text="${user.getName()}"></td>
+                <td th:text="${user.getEmail()}"></td>
+                <td th:text="${user.getAssignedDate()}"></td>
+                <td><a th:href="@{/user/{id}/camels(id=*{user.id})}">Camels</a></td>
+            </tr>
+        </th:block>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
+
