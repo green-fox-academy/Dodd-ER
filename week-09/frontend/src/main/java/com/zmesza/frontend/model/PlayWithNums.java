@@ -1,14 +1,14 @@
 package com.zmesza.frontend.model;
 
-public class playWithNums {
+public class PlayWithNums {
 
   private int input;
   private int result;
 
-  public playWithNums() {
+  public PlayWithNums() {
   }
 
-  public playWithNums(int input, String action) {
+  public PlayWithNums(int input, String action) {
     this.input = input;
     if (action.equals("sum")) {
       int output = 0;
