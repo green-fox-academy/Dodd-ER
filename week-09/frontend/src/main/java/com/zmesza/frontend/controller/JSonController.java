@@ -2,8 +2,8 @@ package com.zmesza.frontend.controller;
 
 import com.zmesza.frontend.model.*;
 import com.zmesza.frontend.service.LogService;
-import com.zmesza.frontend.service.MainService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -43,7 +43,7 @@ public class JSonController {
   @GetMapping(value = "appenda/{appendable}")
   public Object getAppendAFunction(@PathVariable String appendable) {
     this.logservice.saveLogEntries(
-        new Log("append", appendable + "a"));
+        new Log("append", "appendable=" + appendable));
     return new WordToAppend(appendable);
   }
 
@@ -51,12 +51,12 @@ public class JSonController {
   @ResponseBody()
   public Object doUntilFunction(@PathVariable String action, @RequestBody JasonObject jasonObject) {
     this.logservice.saveLogEntries(
-        new Log("dountil", "" + action + jasonObject + ""));
+        new Log("dountil", action + "=" + jasonObject.getUntil()));
     return new PlayWithNums(jasonObject.getUntil(), action);
   }
 
   @GetMapping(value = "/log")
-  public  getLogEntriesFunction() {
-
+  public LogsStat getLogEntriesFunction() {
+    return this.logservice.listOfEntries();
   }
 }
