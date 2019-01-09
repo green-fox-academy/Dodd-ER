@@ -3,6 +3,8 @@ package com.zmesza.p2p_project.model;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Date;
 
@@ -11,17 +13,23 @@ public class Message {
 
   @Id
   private long id;
-  private String usename;
+  private String userName;
   private String text;
   @UpdateTimestamp
   private Date date;
 
   public Message() {
+    this.id = (long)(Math.random() * 8999999) + 1000000;
   }
 
-  public Message(String usename, String text) {
+  public Message(String userName) {
     this.id = (long)(Math.random() * 8999999) + 1000000;
-    this.usename = usename;
+    this.userName = userName;
+  }
+
+  public Message(String userName, String text) {
+    this.id = (long)(Math.random() * 8999999) + 1000000;
+    this.userName = userName;
     this.text = text;
   }
 
@@ -33,12 +41,12 @@ public class Message {
     this.id = id;
   }
 
-  public String getUsename() {
-    return usename;
+  public String getUserName() {
+    return userName;
   }
 
-  public void setUsename(String usename) {
-    this.usename = usename;
+  public void setUserName(String userName) {
+    this.userName = userName;
   }
 
   public String getText() {

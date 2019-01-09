@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Books to read</title>
+</head>
+<body>
+<h1>Peer to peer chat program</h1>
+<form method="post" th:action="@{/}" th:object="${model}">
+    <div>
+        <label for="name">Your username: </label>
+        <input id="name" name="name" th:field="*{userName}"><br>
+    </div>
+    <button>Update user name</button>
+</form>
+<div class="container">
+    <ul th:each="message : ${list_of_messages}">
+        <li th:text="${message.getUserName()}"></li><br>
+        <p th:text="${message.getText()}"></p>
+    </ul>
+</div>
+<form method="post" th:action="@{/}" th:object="${model}">
+    <div>
+        <input id="new_message" name="new_message" th:field="*{text}"><br>
+        <button>send</button>
+    </div>
+</form>
+</body>
+</html>
