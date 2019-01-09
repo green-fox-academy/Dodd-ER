@@ -6,20 +6,25 @@
 </head>
 <body>
 <h1>Peer to peer chat program</h1>
-<form method="post" th:action="@{/}" th:object="${model}">
+<form method="post" th:action="@{/update_user}" th:object="${user}">
     <div>
+        <input id="id" name="id" type="hidden" th:value="*{id}">
         <label for="name">Your username: </label>
-        <input id="name" name="name" th:field="*{userName}"><br>
+        <input id="name" name="name" th:field="*{name}"><br>
     </div>
     <button>Update user name</button>
 </form>
 <div class="container">
+    <ul>
+        <li>App</li>
+        <p>Hi there! Submit your message using the send button!</p>
+    </ul>
     <ul th:each="message : ${list_of_messages}">
         <li th:text="${message.getUserName()}"></li><br>
         <p th:text="${message.getText()}"></p>
     </ul>
 </div>
-<form method="post" th:action="@{/}" th:object="${model}">
+<form method="post" th:action="@{/new_message}" th:object="${model}">
     <div>
         <input id="new_message" name="new_message" th:field="*{text}"><br>
         <button>send</button>

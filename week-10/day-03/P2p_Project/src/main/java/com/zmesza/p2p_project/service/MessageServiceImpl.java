@@ -1,6 +1,5 @@
 package com.zmesza.p2p_project.service;
 
-import com.zmesza.p2p_project.model.Log;
 import com.zmesza.p2p_project.model.Message;
 import com.zmesza.p2p_project.repository.MessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,19 +18,9 @@ public class MessageServiceImpl implements MessageService {
     this.messageRepository = messageRepository;
   }
 
-
   @Override
   public void saveNewMessage(Message message) {
     this.messageRepository.save(message);
-  }
-
-  @Override
-  public boolean isThereAtLeastOneUser() {
-    if (this.messageRepository.findAll().size() != 0) {
-      return true;
-    } else {
-      return false;
-    }
   }
 
   @Override

@@ -7,6 +7,5 @@ import java.util.List;
 public interface MessageService {
 
   void saveNewMessage(Message message);
-  boolean isThereAtLeastOneUser();
   List<Message> getAllMessage();
 }
