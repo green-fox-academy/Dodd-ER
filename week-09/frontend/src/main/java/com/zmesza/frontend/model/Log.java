@@ -13,7 +13,7 @@ public class Log {
   @GeneratedValue
   private long id;
 
-  @Temporal(TemporalType.TIMESTAMP)
+  @CreationTimestamp
   private Date createdAt;
   private String endpoint;
   private String data;
