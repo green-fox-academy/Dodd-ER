@@ -10,7 +10,7 @@
     <div>
         <input id="id" name="id" type="hidden" th:value="*{id}">
         <label for="name">Your username: </label>
-        <input id="name" name="name" th:field="*{name}">
+        <input id="name" name="name" th:field="*{name}" required>
     </div>
     <button>Update user name</button>
 </form>

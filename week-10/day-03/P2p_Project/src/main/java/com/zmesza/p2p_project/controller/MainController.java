@@ -2,15 +2,19 @@ package com.zmesza.p2p_project.controller;
 
 import com.zmesza.p2p_project.model.Log;
 import com.zmesza.p2p_project.model.Message;
+import com.zmesza.p2p_project.model.ReceivedMessage;
 import com.zmesza.p2p_project.model.User;
 import com.zmesza.p2p_project.service.MessageService;
 import com.zmesza.p2p_project.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MainController {
@@ -27,11 +31,9 @@ public class MainController {
   @GetMapping(value = "/register")
   public String getRegisterPage(Model model) {
     if (this.userService.isThereAtLeastOneUser()){
-      System.out.println(new Log("/register", "GET","INFO", "there is one in db").getCoreMessage());
       return "redirect:/";
     } else {
       model.addAttribute("model", new User());
-      System.out.println(new Log("/register", "GET","INFO", "there is noone in db").getCoreMessage());
       return "register";
     }
   }
@@ -75,5 +77,13 @@ public class MainController {
     message.setUserName(this.userService.getUser().getName());
     this.messageService.saveNewMessage(message);
     return "redirect:/";
+  }
+
+  @PostMapping("/api/message/receive")
+  @ResponseBody
+  public ResponseEntity<ReceivedMessage> apiMessageReceiver(@RequestBody ReceivedMessage receivedMessage) {
+    receivedMessage.getMessage().setUserName(receivedMessage.getClient().getId());
+    this.messageService.saveNewMessage(receivedMessage.getMessage());
+    return new ResponseEntity<>(receivedMessage, HttpStatus.OK);
   }
 }
