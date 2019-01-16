@@ -4,6 +4,7 @@ import com.zmesza.p2p_project.model.Log;
 import com.zmesza.p2p_project.model.Message;
 import com.zmesza.p2p_project.model.ReceivedMessage;
 import com.zmesza.p2p_project.model.User;
+import com.zmesza.p2p_project.model.status_message.StatusMessage;
 import com.zmesza.p2p_project.service.MessageService;
 import com.zmesza.p2p_project.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -81,9 +82,9 @@ public class MainController {
 
   @PostMapping("/api/message/receive")
   @ResponseBody
-  public ResponseEntity<ReceivedMessage> apiMessageReceiver(@RequestBody ReceivedMessage receivedMessage) {
+  public ResponseEntity<StatusMessage> apiMessageReceiver(@RequestBody ReceivedMessage receivedMessage) {
     receivedMessage.getMessage().setUserName(receivedMessage.getClient().getId());
     this.messageService.saveNewMessage(receivedMessage.getMessage());
-    return new ResponseEntity<>(receivedMessage, HttpStatus.OK);
+    return new ResponseEntity<>(this.messageService.getStatusMessage(receivedMessage), HttpStatus.OK);
   }
 }

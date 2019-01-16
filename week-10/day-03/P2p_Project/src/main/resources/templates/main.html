@@ -26,7 +26,7 @@
 </div>
 <form method="post" th:action="@{/new_message}" th:object="${model}">
     <div>
-        <input id="new_message" name="new_message" th:field="*{text}"><br>
+        <input id="new_message" name="new_message" th:field="*{text}" required><br>
         <button>send</button>
     </div>
 </form>
