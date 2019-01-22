@@ -21,6 +21,7 @@ import java.util.Date;
 import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
 import static com.zmesza.todo_jwt.security.SecurityConstants.EXPIRATION_TIME;
 import static com.zmesza.todo_jwt.security.SecurityConstants.HEADER_STRING;
+import static com.zmesza.todo_jwt.security.SecurityConstants.SECRET;
 import static com.zmesza.todo_jwt.security.SecurityConstants.TOKEN_PREFIX;
 
 
